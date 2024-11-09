@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(50, 74, 74);
+}
+
+h2{
+    color: white;
+    padding: 20px;
+}
+
+.centre_btn{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#cen_btn{
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aquamarine;
+    font-size: 30px;
+    font-weight: bold;
+}
