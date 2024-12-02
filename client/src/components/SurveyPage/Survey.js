@@ -30,7 +30,7 @@ const Survey = () => {
   };
 
   const handleSubmit = () => {
-    fetch('http://localhost:5000/survey/complete', {
+    fetch('http://beanfirst.ap-south-1.elasticbeanstalk.com/survey/complete', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ answers: Object.entries(answers).map(([questionId, answer]) => ({ questionId: parseInt(questionId), answer })) })
